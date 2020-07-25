@@ -2,7 +2,7 @@
 
 
 
-## DevJobs
+## DevJobs Technologies
 -Laravel v.7
 -Bootstrap 4.5
 -Vuejs

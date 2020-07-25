@@ -10,6 +10,8 @@
 -Dropzone
 -Medium Editor
 
+##Descripcion
+Plataforma de empleo, en el cual puedes publicar vacantes 
 
 
 

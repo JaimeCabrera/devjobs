@@ -1,9 +1,9 @@
 <template>
     <div class="">
-        <button class="btn btn-outline-danger btn-sm text-decoration-none text-danger mr-2"
+        <a class="text-decoration-none text-danger mr-2"
             @click="deleteVacant">
-            <i class="fas fa-trash-alt"></i>
-        </button>
+            <i class="btn btn-outline-danger far fa-trash-alt"></i>
+    </a>
     </div>
 </template>
 <script>

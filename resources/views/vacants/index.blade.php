@@ -56,14 +56,18 @@
                         <td><a href="{{ route('candidates.index',$vacant)}}" class="text-decoration-none">{{$vacant->candidates->count()}} candidatos</a></td>
                         <td>
                             <div class="btn-group">
-                                <a class="text-decoration-none text-primary mr-2" href="{{ route('vacants.edit',$vacant)}}"><i
-                                        class="btn btn-outline-info btn-sm fas fa-pencil-alt"></i></a>
+                                <a class="text-decoration-none  text-primary mr-2" href="{{ route('vacants.edit',$vacant)}}">
+                                    <i class="btn btn-outline-info fas fa-edit"></i>
+
+                                </a>
                                 <delete-vacant
                                     vacant-id={{$vacant->id}}
                                 >
                                 </delete-vacant>
                                 <a class="text-decoration-none text-success"
-                                    href="{{ route('vacants.show',$vacant)}}"><i class="btn btn-outline-success btn-sm fas fa-eye"></i></a>
+                                    href="{{ route('vacants.show',$vacant)}}">
+                                    <i class="btn btn-outline-success fas fa-eye"></i>
+                                </a>
                             </div>
                         </td>
                     </tr>

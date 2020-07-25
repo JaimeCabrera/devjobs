@@ -53846,13 +53846,12 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", {}, [
     _c(
-      "button",
+      "a",
       {
-        staticClass:
-          "btn btn-outline-danger btn-sm text-decoration-none text-danger mr-2",
+        staticClass: "text-decoration-none text-danger mr-2",
         on: { click: _vm.deleteVacant }
       },
-      [_c("i", { staticClass: "fas fa-trash-alt" })]
+      [_c("i", { staticClass: "btn btn-outline-danger far fa-trash-alt" })]
     )
   ])
 }

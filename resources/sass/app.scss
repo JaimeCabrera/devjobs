@@ -1,0 +1,30 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+// Variables
+@import 'variables';
+// devjobs
+@import 'devjobs';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// Tailwindcss
+// @tailwind base;
+
+// @tailwind components;
+
+// @tailwind utilities;
+// medium editor css
+@import '~medium-editor/src/sass/medium-editor'; //Insert this one
+@import '~medium-editor/src/sass/themes/beagle'; //Insert this one
+// Dropzone
+// @import'~dropzone/dist/dropzone';
+@import'~dropzone/dist/dropzone.css';
+
+@import'~lightbox2/dist/css/lightbox.min.css';
+// fontawesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+// sweet alert
+@import '~sweetalert2/dist/sweetalert2.min.css';
+

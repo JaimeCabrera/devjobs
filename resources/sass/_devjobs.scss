@@ -1,0 +1,53 @@
+// descripcion de medium editor
+.editable{
+    padding: 5px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color:#898a8b;
+    min-height:10rem !important;
+    line-height: 1.4rem;
+}
+// dropzone
+.dropzone{
+    border: 2px dashed #c1c1c1;
+    .dz-error{
+        display: none;
+    }
+    .dz-message .dz-button{
+        color: #666;
+    }
+}
+// ocultar erro en archivos de iamgens
+a{
+    margin: 0;
+}
+// imagen
+.img-fluid{
+    inset: 0;
+    object-fit: cover;
+    width: 100%;
+}
+.title_1{
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+}
+.title_2{
+    display: block;
+    font-weight: 600;
+}
+ .card_vacants{
+     border-radius: 0px!important;
+     background:white;
+     line-height: 0.6rem;
+ }
+ .card_vacants:hover{
+     border-left: outset #23b67d;
+ }
+.btn-view-vacant{
+    display: inline;
+    width: 40%;
+}
+.nav-categories:hover{
+    border-bottom: 4px solid #23b67d;
+}

@@ -12,7 +12,7 @@
 
 ## Descripcion
 Plataforma de empleo, en el cual puedes publicar vacantes 
-##demo
+## Demo
 -https://jaimecabrera.github.io/devjobs/
 
 
